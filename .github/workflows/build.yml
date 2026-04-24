@@ -32,7 +32,7 @@ jobs:
 
     # 5. 上传成果 (修复后的关键步骤)
     - name: Upload EXE
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: MyExcelTool  # 下载时的文件名
         path: dist/多表合并工具.exe  # 指定打包好的文件路径
